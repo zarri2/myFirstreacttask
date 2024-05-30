@@ -1,3 +1,13 @@
-.Heading {
+.Heading h1 {
   color :blue
+
+  
+}
+.Heading {
+  text-align: center;
+  color: aliceblue;
+  
+}
+body {
+  background-color: rgb(109, 74, 156);
 }

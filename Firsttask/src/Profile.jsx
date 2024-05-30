@@ -1,17 +1,18 @@
-function Profile() {
+function Profile(props) {
+    const {Name, gender,age,education,city} =props;
 return(
-    <div>
+    <>
     <div className="Heading" >
-    <h1>My Bio</h1>
-    </div>
-    <p> Amir khan</p>
-    <p>Recently Completed Bachelor In Urdu </p>
-    <p>Living In Lahore </p>
-    <p>Started Working as a tranee </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-    <p>Started Worling as a tranee </p>
+    <h1 style={{color:"yellow"}}>My Bio</h1>
+    
+    <p> {Name}</p>
+    <p>Recently Completed Bachelor In {education} </p>
+    <p>Living In {city} </p>
+    <p>Age is {age} </p>
+    <p>Gender is {gender} </p>
     
     </div>
+    </>
 )
 }
 
